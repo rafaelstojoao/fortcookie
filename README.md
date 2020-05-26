@@ -18,6 +18,12 @@ INSTRUCTIONS....
 
 
 install with pip install fortcookie
+
+
+
 from fortcookie import FortumeCookie
+import pandas as pd
+import random
+
 cookie = FortuneCookie()
 cookie.creck()
