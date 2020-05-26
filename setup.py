@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="fortcookie", # Replace with your own username
-    version="0.0.4",
+    version="1.0.0",
     author="Rafael Stoffalette Joao",
     author_email="rafaelstojoao@gmail.com",
-    description="Say cookie.crack() and be lucky...",
+    description="crack() and be lucky...[fortcookie.FortuneCookie,creck()]",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/rafaelstojoao/fortcookie",

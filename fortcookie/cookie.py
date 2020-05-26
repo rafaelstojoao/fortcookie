@@ -1,19 +1,10 @@
-import pandas as pd
 class FortuneCookie:
 
     def __init__(self):
-
         import pandas as pd
-
-        url = 'https://raw.githubusercontent.com/rafaelstojoao/fortcookie/master/dataset/mymind.txt'
-        df = pd.read_csv(url, error_bad_lines=False)
-        print(df)
-
-
-        # self.url = 'https://raw.githubusercontent.com/rafaelstojoao/fortcookie/master/dataset/mymind.txt'
-        # self.localUrl = '../dataset/mymind.dat'
-        # self.lines = [i for i in open(self.url).readlines()]
-
+        url = 'https://raw.githubusercontent.com/rafaelstojoao/fortcookie/master/dataset/mymind.csv'
+        data = pd.read_csv(url, error_bad_lines=False)
+        self.lines = str(data).split(',')
         self.myfortune = ""
 
     def creck(self):
