@@ -1,19 +1,19 @@
-# class FortuneCookie:
+class FortuneCookie:
 
-    # def __init__(self):
-with open('../dataset/mymind.dat') as ds:
-    lines = ds.readlines()
-    myfortune = ""
+    def __init__(self):
+        with open('../dataset/mymind.dat') as ds:
+            self.lines = ds.readlines()
+            self.myfortune = ""
 
-    def creck():
+    def creck(self):
         import random
-        key = random.randint(0,len(lines))
-        print(lines[key])
+        key = random.randint(0,len(self.lines))
+        print(self.lines[key])
         return
 
-# if __name__ == '__main__':
-# cookie = FortuneCookie()
-# cookie.creck()
+if __name__ == '__main__':
+    cookie = FortuneCookie()
+    cookie.creck()
 
 
-creck()
+# creck()
