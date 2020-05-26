@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="fortcookie", # Replace with your own username
-    version="1.0.1",
+    version="1.0.2",
     author="Rafael Stoffalette Joao",
     author_email="rafaelstojoao@gmail.com",
     description="crack() and be lucky...[fortcookie.FortuneCookie,creck()]",
