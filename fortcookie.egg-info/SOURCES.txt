@@ -13,6 +13,8 @@ dist/fortcookie-0.0.1-py3-none-any.whl
 dist/fortcookie-0.0.1.tar.gz
 dist/fortcookie-0.0.2-py3-none-any.whl
 dist/fortcookie-0.0.2.tar.gz
+dist/fortcookie-0.0.3-py3-none-any.whl
+dist/fortcookie-0.0.3.tar.gz
 fortcookie/__init__.py
 fortcookie/__init__.pyc
 fortcookie/cookie.py
