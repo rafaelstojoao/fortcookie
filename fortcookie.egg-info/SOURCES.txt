@@ -9,7 +9,6 @@ setup.py
 .idea/inspectionProfiles/Project_Default.xml
 .idea/inspectionProfiles/profiles_settings.xml
 dataset/mymind.csv
-dist/fortcookie-1.0.0.tar.gz
 fortcookie/__init__.py
 fortcookie/__init__.pyc
 fortcookie/cookie.py
