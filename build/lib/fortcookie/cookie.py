@@ -11,7 +11,7 @@ class FortuneCookie:
         print(self.lines[key])
         return
 
-if __name__ == '__main__':
-    cookie = FortuneCookie()
-    cookie.creck()
+# if __name__ == '__main__':
+cookie = FortuneCookie()
+# cookie.creck()
 
