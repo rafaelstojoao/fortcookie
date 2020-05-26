@@ -1,9 +1,12 @@
+import pandas as pd
 class FortuneCookie:
 
     def __init__(self):
-        with open('../dataset/mymind.dat') as ds:
-            self.lines = ds.readlines()
-            self.myfortune = ""
+        self.url = 'https://raw.githubusercontent.com/rafaelstojoao/fortcookie/master/dataset/mymind.dat'
+        self.localUrl = '../dataset/mymind.dat'
+        self.lines = [i for i in open(self.localUrl).readlines()]
+
+        self.myfortune = ""
 
     def creck(self):
         import random
