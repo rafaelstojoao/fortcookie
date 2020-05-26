@@ -2,9 +2,17 @@ import pandas as pd
 class FortuneCookie:
 
     def __init__(self):
-        self.url = 'https://raw.githubusercontent.com/rafaelstojoao/fortcookie/master/dataset/mymind.dat'
-        self.localUrl = '../dataset/mymind.dat'
-        self.lines = [i for i in open(self.localUrl).readlines()]
+
+        import pandas as pd
+
+        url = 'https://raw.githubusercontent.com/rafaelstojoao/fortcookie/master/dataset/mymind.txt'
+        df = pd.read_csv(url, error_bad_lines=False)
+        print(df)
+
+
+        # self.url = 'https://raw.githubusercontent.com/rafaelstojoao/fortcookie/master/dataset/mymind.txt'
+        # self.localUrl = '../dataset/mymind.dat'
+        # self.lines = [i for i in open(self.url).readlines()]
 
         self.myfortune = ""
 
